@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Quiz-Board</title>
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+</head>
+
+<body class="container">
+  <h1>Quality JavaScript Quiz</h1>
+  <form id="quiz" name="quiz">
+
+    <p>1.What is the other name for Javascript?</p>
+    <input type="radio" id="mc" name="question1" value="ECMAscript">ECMAscript<br>
+    <input type="radio" id="mc" name="question1" value="JS">JS<br>
+    <input type="radio" id="mc" name="question1" value="I don't know">I don't know<br>
+
+    <p>2.What are the full names of (BDD)?:</p>
+    <input type="radio" id="mc" name="question2" value="Behavior Driven Development">Behavior Driven Development<br>
+    <input type="radio" id="mc" name="question2" value="Behavior Development Driven">Behavior Development Driven<br>
+    <input type="radio" id="mc" name="question2" value="Best Development Driven">Best Development Driven<br>
+
+    <p>3.Which of the following is not a method.</p>
+       <input type="radio" id="mc" name="question3" value="fadeIn()">fadeIn()<br>
+       <input type="radio" id="mc" name="question3" value="slideAway()">slideAway()<br>
+       <input type="radio" id="mc" name="question3" value="fadeOut()">fadeOut()<br>
+
+       <p>4.Which of the following is not a programming language.</p>
+       <input type="radio" id="mc" name="question4" value="SQL">SQL<br>
+       <input type="radio" id="mc" name="question4" value="HTML">HTML<br>
+       <input type="radio" id="mc" name="question4" value="python">python<br>
+
+
+       <input id="button" type="button" value="Submit" onclick="check()">
+  </form>
+
+  <div id="after_submit">
+
+    <p id="message"></p>
+    <p id="number_correct"></p>
+    <img id = "picture">
+  </div>
+    <script src="js/scripts.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+.container {
+  font-family: 'Lato', sans-serif;
+background-image: url('imgres.html');
+
+}
+
+h1{
+  color: #1a0dab;
+  text-align:center;
+  text-decoration: underline;
+}
+
+p{
+  color: purple;
+}
+
+
+#quiz {
+  visibility: visible;
+  margin-left: 10px;
+  background: #fafafa;
+  padding: 10px 20px 10px 20px;
+  widith: 400px;
+  float: left;
+
+}
+
+#button {
+  background: green;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+  transition-duration: 1s;
+  margin-top: 15px;
+}
+
+#button:hover {
+  background: white;
+  border: 1px solid green;
+  color: black;cursor: pointer;
+}
+
+#after_submit {
+  visibility: hidden;
+  background: #42ebf4;
+  padding: 10px 20px 10px 20px;
+  width: 350px;
+  border-radius: 20px;
+  float: right;
+  margin-left: 20px;
+  font-size: 30px;
+
+}
+
+#picture {
+  width: 350px;
+  height: 200px;
+}
