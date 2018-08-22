@@ -1,6 +1,6 @@
 # quizJS
 Js Questions
--{Jessyndavi}(https://github.com/jessyndavi/QUIZ-BOARD.git)
+-{Jessyndavi}(https://github.com/jessyndavi/quizJS.git)
 ###About This Project;
 This project is of an application that is asking Javascript Questions. 
  View on [Github](http://jessyndavi.github.io/QUIZ-BOARD).
